@@ -11,7 +11,7 @@
    ```
    pip install datasets
    ```
-2. 运行`data/data_download.py`
+2. 运行`data/data_download.py`, 数据集将保存在`data`文件夹，可通过`cache_dir`修改缓存路径。
    ```shell
    python data/data_download.py
    ```
@@ -39,6 +39,11 @@
 注意，我们仅使用了educhat-sft-002-data-osm所提供的对话数据，并未使用其所提供的system_prompt。
 
 ---  
-
 Qwen微调
-参考[Qwen/README_CN](Qwen/README_CN.md)
+```shell
+git clone git@github.com:QwenLM/Qwen.git
+```
+具体微调过程参考[Qwen]([Qwen/README_CN.md](https://github.com/QwenLM/Qwen))
+
+---
+**声明：本项目仅用于课程学习，不包含任何商业行为。**
